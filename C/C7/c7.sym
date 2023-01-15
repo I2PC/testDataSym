@@ -1,0 +1,9 @@
+# The fold is the number of times that the volume can be rotated along
+# the symmetry axis giving the same view from different view points.
+# the structure for the rotational axis is
+# rot_axis      <fold> <X0> <Y0> <Z0>
+# mirror_plane         <X0> <Y0> <Z0>
+# P4212
+# inversion
+# The following line is a 7-fold rotational symmetry axis along Z-axis.
+rot_axis      7 0 0 1

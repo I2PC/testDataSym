@@ -1,0 +1,6 @@
+# rot_axis      <fold> <X0> <Y0> <Z0>
+# mirror_plane         <X0> <Y0> <Z0>
+# P4212
+# inversion
+rot_axis 2 0. -0.816496 -0.577350
+rot_axis 3 0 0 1

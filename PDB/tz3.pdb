@@ -1,0 +1,13 @@
+HETATM    1  CT1 EGR H   1      10.000   0.000   3.000  1.00  0.00           C
+HETATM    2  CT1 EGR A   1       2.449   7.188   7.165  1.00  0.00           C
+HETATM    3  CT1 EGR B   1      -2.449  -4.359  -9.165  1.00  0.00           C
+HETATM    4  CT1 EGR C   1     -10.000  -2.828  -1.000  1.00  0.00           C
+HETATM    5  CT1 EGR D   1      -5.000   8.660   3.000  1.00  0.00           C
+HETATM    6  CT1 EGR E   1      -5.000  -8.660   3.000  1.00  0.00           C
+HETATM    7  CT1 EGR F   1      -7.449  -1.473   7.165  1.00  0.00           C
+HETATM    8  CT1 EGR G   1      -2.551   4.301  -9.165  1.00  0.00           C
+HETATM    9  CT1 EGR I   1       7.449  -7.246  -1.000  1.00  0.00           C
+HETATM   10  CT1 EGR J   1       5.000  -5.715   7.165  1.00  0.00           C
+HETATM   11  CT1 EGR K   1       5.000   0.058  -9.165  1.00  0.00           C
+HETATM   12  CT1 EGR L   1       2.551  10.074  -1.000  1.00  0.00           C
+END

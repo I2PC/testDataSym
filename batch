@@ -1,0 +1,18 @@
+OLDSYM=dy
+SYM=i3
+OLDGROUP=D
+cp ../../$OLDGROUP/$OLDSYM/$OLDSYM.feat $SYM.feat
+cp ../../$OLDGROUP/$OLDSYM/$OLDSYM.param $SYM.param
+cp ../../$OLDGROUP/$OLDSYM/$OLDSYM.sym $SYM.sym
+
+rm $SYM.mrcs $SYM.mrc $SYM_tmp.mrc
+vi $SYM.sym
+vi $SYM.feat
+scipion xmipp_phantom_create -i $SYM.feat -o $SYM_tmp.mrc
+xmipp_transform_symmetrize  -i $SYM_tmp.mrc -o $SYM.mrc --sym $SYM  --dont_wrap 
+chimera $SYM.mrc
+xmipp_phantom_project -i $SYM.mrc  -o $SYM.mrcs --params $SYM.param --method real_space
+scipion show $SYM.mrcs
+
+
+

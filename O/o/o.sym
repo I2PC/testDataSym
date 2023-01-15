@@ -1,0 +1,8 @@
+# rot_axis      <fold> <X0> <Y0> <Z0>
+# mirror_plane         <X0> <Y0> <Z0>
+# P4212
+# inversion
+# The following line is a 7-fold rotational symmetry axis along Z-axis.
+# plus 2-fold symmetry alonmg y axis 
+rot_axis 3 .5773502 .5773502 .5773502
+rot_axis 4 0 0 1
