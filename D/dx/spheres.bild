@@ -1,6 +1,22 @@
+.comment plane 1 defined by (0,0,1)
+.comment plane 2 defined by (0,0,1) y v1
+.comment plane 3 defined by (0,0,1) y v2
+
+.comment plane 1
 .color blue
 .polygon 0 0 0 60 0 0 0 60 0 -60 0 0
+.arrow 0 0 0 -0 0 100 0.200000 0.400000 0.750000
 
+.color red
+.comment  v1=[cosd(-90 + angle/2.), -sind(-90 + angle/2.),0]
+.polygon 0	0	60 43.3883739117558  90.0968867902419   0.0 0	0	-60
+.arrow 0 0 0 -90.096886790241911   43.388373911755835    0.0 0.200000 0.400000 0.750000
+
+
+.color green
+.comment v2=[cosd(-90-angle/2.), -sind(-90-angle/2.),0] 
+.polygon 0	0	60 -43.3883739117558  90.0968867902419   0.0 0	0	-60
+.arrow 0 0 0 90.096886790241911   43.388373911755806   -0.0 0.200000 0.400000 0.750000
 
 .color orange
 
