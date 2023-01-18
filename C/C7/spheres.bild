@@ -1,10 +1,10 @@
 
 .comment plane 1 defined by (0,0,1) and v1
 .comment plane 2 defined by (0,0,1) and v2
-.comment angle = 360/7
+.comment angle = -360/7
 
 .comment PLANE 1
-.comment v1=[cosd(angle/2.), -sind(angle/2.),0] 
+.comment v1=[cosd(angle/2.), sind(angle/2.),0] 
 .color red 
 .comment .polygon 0	0	60 90.097	-43.388	0 0	0	-60
 .comment perpendicular vector
@@ -12,7 +12,7 @@
 .comment .arrow 0 0 0 43.388373911755814   90.096886790241911   -0.000000000000000 0.200000 0.400000 0.750000
 
 .comment PLANE 2
-.comment v2=[cosd(-angle/2.), -sind(-angle/2.),0]
+.comment v2=[cosd(-angle/2.), sind(-angle/2.),0]
 .comment .color green
 .comment .polygon 0	0	60 90.097	+43.388	0 0	0	-60
 .comment perpendicular vector
