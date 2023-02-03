@@ -1,0 +1,29 @@
+# XMIPP_STAR_1 *
+# Projection Parameters
+#_angleFile     
+# X and Y projection dimensions [Xdim Ydim]
+# Rotation range and number of samples [Start Finish NSamples]
+# Rotation angle added noise  [noise (bias)]
+# Type of range for Rotation (random_group or random or even)
+# Tilt range and number of samples for Tilt
+# Tilt angle added noise
+# Type of range for Tilt
+# Psi range and number of samples
+# Psi added noise
+# Type of range for Psi
+# Noise applied to pixels [noise (bias)]
+# Noise applied to particle center coordenates [noise (bias)]
+
+data_block1
+_dimensions2D   '128 128'
+_projRotRange    '0 360 20'
+_projRotNoise   '0.0 0.0'
+_projRotRandomness   random   
+_projTiltRange    '0 180 20'
+_projTiltNoise   '0.0 0.0'
+_projTiltRandomness   random 
+_projPsiRange    '0 360 1'
+_projPsiNoise   '0 0'
+_projPsiRandomness   random
+_noisePixelLevel   '0.1 0.'
+_noiseCoord   '0. 0'
