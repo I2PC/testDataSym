@@ -1,0 +1,39 @@
+# XMIPP_STAR_1 *
+# Type of feature (sph, blo, gau, Cyl, dcy, cub, ell, con)(Required)
+# The operation after adding the feature to the phantom (+/=) (Required)
+# The feature density (Required)
+# The feature center (Required)
+# The vector for special parameters of each vector (Required)
+# Sphere: [radius] Blob : [radius alpha m] Gaussian : [sigma]
+# Cylinder : [xradius yradius height rot tilt psi]
+# DCylinder : [radius height separation rot tilt psi]
+# Cube : [xdim ydim zdim rot tilt psi]
+# Ellipsoid : [xradius yradius zradius rot tilt psi]
+# Cone : [radius height rot tilt psi]
+data_block1
+ _dimensions3D  '128 128 128'
+ _phantomBGDensity  0.
+ _scale  1.
+data_block2
+loop_
+ _featureType
+ _featureOperation
+ _featureDensity
+ _featureCenter
+ _featureSpecificVector
+# 5-fold inner
+# 5-fold outter
+# 3 fold
+sph + 1 '0 0 40' '5'
+sph + 1 '35.77708763999664 0.0 17.888543819998322' '5'
+sph + 1 '11.055728090000843 34.0260323340816 17.888543819998322' '5'
+sph + 1 '-28.94427190999916 21.029244484765346 17.888543819998322' '5'
+sph + 1 '-28.94427190999916 -21.029244484765343 17.888543819998322' '5'
+sph + 1 '11.055728090000837 -34.0260323340816 17.888543819998322' '5'
+sph + 1 '0 0 -40' '5'
+sph + 1 '-35.77708763999664 0.0 -17.888543819998322' '5'
+sph + 1 '-11.055728090000843 34.0260323340816 -17.888543819998322' '5'
+sph + 1 '28.94427190999916 21.029244484765346 -17.888543819998322' '5'
+sph + 1 '28.94427190999916 -21.029244484765343 -17.888543819998322' '5'
+sph + 1 '-11.055728090000837 -34.0260323340816 -17.888543819998322' '5'
+
