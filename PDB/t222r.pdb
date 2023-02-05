@@ -1,0 +1,5 @@
+HETATM    1  CT1 EGR A   1       8.660   8.660   8.660  1.00  0.00           C
+HETATM    2  CT1 EGR B   1      -8.660  -8.660   8.660  1.00  0.00           C
+HETATM    3  CT1 EGR C   1      -8.660   8.660  -8.660  1.00  0.00           C
+HETATM    4  CT1 EGR D   1       8.660  -8.660  -8.660  1.00  0.00           C
+END
